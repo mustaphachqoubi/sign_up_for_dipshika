@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="conatiner">
+      <div class="signup_card" id="signup_card">
+        <div class="sign_up_title">
+          <h1>Sign up</h1>
+        </div>
+
+        <form action="">
+          <div class="first_name sign_up_item">
+            <div class="title">
+              <h4>First name :</h4>
+            </div>
+            <input
+              type="text"
+              id="first_name"
+              class="form_inputs"
+              placeholder="First name"
+            />
+          </div>
+          <div class="last_name sign_up_item">
+            <div class="title"><h4>Last name :</h4></div>
+            <input
+              type="text"
+              id="last_name"
+              class="form_inputs"
+              placeholder="Last name"
+            />
+          </div>
+          <div class="email sign_up_item">
+            <div class="title"><h4>Email :</h4></div>
+            <input
+              type="text"
+              id="email"
+              class="form_inputs"
+              placeholder="Email"
+            />
+          </div>
+          <div class="password sign_up_item">
+            <div class="title"><h4>Password :</h4></div>
+            <input
+              type="text"
+              id="password"
+              class="form_inputs"
+              placeholder="Password"
+            />
+          </div>
+          <div class="phone sign_up_item">
+            <div class="title"><h4>Password :</h4></div>
+            <input
+              type="text"
+              id="phone"
+              class="form_inputs"
+              placeholder="phone number"
+            />
+          </div>
+          <div class="gender sign_up_item">
+            <div class="title"><h4>Gender :</h4></div>
+            <select name="gender" id="gender" class="form_inputs">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="user_type sign_up_item">
+            <div class="title"><h4>User :</h4></div>
+            <select name="user_type" id="user_type" class="form_inputs">
+              <option value="doctor">Doctor</option>
+              <option value="pation">Pationt</option>
+            </select>
+          </div>
+          <div class="date_of_birth sign_up_item">
+            <div class="title"><h4>Date of birth :</h4></div>
+            <input
+              type="date"
+              id="date_of_birth"
+              class="date_of_birth"
+              placeholder="date of birth"
+            />
+          </div>
+
+          <div class="submitting">
+            <button class="sign_up">Sign up</button>
+            <div class="have_an_account">
+                <h5>You have an account? </h5>
+                <button class="log_in">Log in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
