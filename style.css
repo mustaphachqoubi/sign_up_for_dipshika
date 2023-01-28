@@ -120,6 +120,10 @@ select{
     background: #1d4ed8;
 }
 
+.date_of_birth{
+    border-radius: 0.3rem;
+}
+
 @media screen and (max-width: 500px) {
     .signup_card{
         width: 100%;
